@@ -1,0 +1,27 @@
+Release 14.7 Drc P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Thu Jun 23 12:53:17 2016
+
+drc -z mojo_top_0_routed.ncd mojo_top_0.pcf
+
+WARNING:PhysDesignRules:367 - The signal
+   <oneKHz/blk00000001/blk00000015_RAMD_D1_O> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <oneKHz/blk00000001/blk0000002d_RAMD_D1_O> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <oneKHz/blk00000001/blk00000016_RAMD_D1_O> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <oneKHz/blk00000001/blk0000002e_RAMD_D1_O> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <oneKHz/blk00000001/blk0000002c_RAMD_D1_O> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <oneKHz/blk00000001/blk00000014_RAMD_D1_O> is incomplete. The signal does not
+   drive any load pins in the design.
+DRC detected 0 errors and 6 warnings.  Please see the previously displayed
+individual error or warning messages for more details.

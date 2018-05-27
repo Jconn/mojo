@@ -1,0 +1,12 @@
+# Output products list for <dds_compiler_v5_0>
+dds_compiler_v5_0.asy
+dds_compiler_v5_0.gise
+dds_compiler_v5_0.ngc
+dds_compiler_v5_0.v
+dds_compiler_v5_0.veo
+dds_compiler_v5_0.xco
+dds_compiler_v5_0.xise
+dds_compiler_v5_0\doc\dds_compiler_v5_0_readme.txt
+dds_compiler_v5_0_flist.txt
+dds_compiler_v5_0_xmdf.tcl
+demo_tb\tb_dds_compiler_v5_0.vhd
