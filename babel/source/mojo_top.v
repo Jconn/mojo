@@ -24,7 +24,7 @@ module mojo_top(
     output avr_rx, // AVR Rx => FPGA Tx
     input avr_rx_busy, // AVR Rx buffer full,
     output busy_pinout,
-    output start
+    output i2c_busy
     );
 
 wire rst = ~rst_n; // make reset active high
@@ -66,7 +66,6 @@ assign busy_pinout = mpu_busy;
 
 wire mpu_busy;
 reg start_mpu = 0;
-
 mpu_9150 mpu_9150(
     // 50MHz clock input
     .clk(clk),
@@ -79,7 +78,8 @@ mpu_9150 mpu_9150(
     //the start condition 
     .sample_start(start_mpu),
     
-    .mod_busy(mpu_busy)
+    .mod_busy(mpu_busy),
+    .byte_busy(i2c_busy)
     );
     
     
